@@ -1,0 +1,44 @@
+2026-08-12T03:38:21+00:00
+Python 3.11.8 (main, Feb 26 2024, 21:39:34) [GCC 11.2.0]
+qibo 0.3.2
+qibojit 0.1.15
+quimb 1.13.0
+qibotn 0.0.7
+Architecture:                       x86_64
+CPU op-mode(s):                     32-bit, 64-bit
+Address sizes:                      52 bits physical, 57 bits virtual
+Byte Order:                         Little Endian
+CPU(s):                             16
+On-line CPU(s) list:                0-15
+Vendor ID:                          AuthenticAMD
+Model name:                         AMD EPYC 9354 32-Core Processor
+CPU family:                         25
+Model:                              17
+Thread(s) per core:                 1
+Core(s) per socket:                 1
+Socket(s):                          16
+Stepping:                           1
+BogoMIPS:                           6490.25
+Flags:                              fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 syscall nx mmxext fxsr_opt pdpe1gb rdtscp lm rep_good nopl cpuid extd_apicid tsc_known_freq pni pclmulqdq ssse3 fma cx16 pcid sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand hypervisor lahf_lm cmp_legacy svm cr8_legacy abm sse4a misalignsse 3dnowprefetch osvw perfctr_core invpcid_single ssbd ibrs ibpb stibp vmmcall fsgsbase tsc_adjust bmi1 avx2 smep bmi2 erms invpcid avx512f avx512dq rdseed adx smap avx512ifma clflushopt clwb avx512cd sha_ni avx512bw avx512vl xsaveopt xsavec xgetbv1 xsaves avx512_bf16 clzero xsaveerptr wbnoinvd arat npt nrip_save avx512vbmi umip pku ospke avx512_vbmi2 gfni vaes vpclmulqdq avx512_vnni avx512_bitalg avx512_vpopcntdq la57 rdpid fsrm arch_capabilities
+Virtualization:                     AMD-V
+Hypervisor vendor:                  KVM
+Virtualization type:                full
+L1d cache:                          1 MiB (16 instances)
+L1i cache:                          1 MiB (16 instances)
+L2 cache:                           8 MiB (16 instances)
+L3 cache:                           256 MiB (16 instances)
+NUMA node(s):                       1
+NUMA node0 CPU(s):                  0-15
+Vulnerability Gather data sampling: Not affected
+Vulnerability Itlb multihit:        Not affected
+Vulnerability L1tf:                 Not affected
+Vulnerability Mds:                  Not affected
+Vulnerability Meltdown:             Not affected
+Vulnerability Mmio stale data:      Not affected
+Vulnerability Retbleed:             Not affected
+Vulnerability Spec rstack overflow: Mitigation; safe RET, no microcode
+Vulnerability Spec store bypass:    Mitigation; Speculative Store Bypass disabled via prctl and seccomp
+Vulnerability Spectre v1:           Mitigation; usercopy/swapgs barriers and __user pointer sanitization
+Vulnerability Spectre v2:           Mitigation; Retpolines, IBPB conditional, IBRS_FW, STIBP disabled, RSB filling, PBRSB-eIBRS Not affected
+Vulnerability Srbds:                Not affected
+Vulnerability Tsx async abort:      Not affected

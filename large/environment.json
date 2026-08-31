@@ -1,0 +1,41 @@
+{
+  "python": "3.11.8",
+  "platform": "Linux-5.15.0-105-generic-x86_64-with-glibc2.35",
+  "logical_cpus": 16,
+  "physical_cpus": 16,
+  "threads": 1,
+  "workload": "qaoa",
+  "layers": 6,
+  "threadpools": [
+    {
+      "user_api": "blas",
+      "internal_api": "openblas",
+      "num_threads": 16,
+      "prefix": "libscipy_openblas",
+      "filepath": "/home/featurize/work/ASC_Final_Selection/envs/qibotn/lib/python3.11/site-packages/numpy.libs/libscipy_openblas64_-56d6093b.so",
+      "version": "0.3.29",
+      "threading_layer": "pthreads",
+      "architecture": "SkylakeX"
+    },
+    {
+      "user_api": "blas",
+      "internal_api": "openblas",
+      "num_threads": 16,
+      "prefix": "libscipy_openblas",
+      "filepath": "/home/featurize/work/ASC_Final_Selection/envs/qibotn/lib/python3.11/site-packages/scipy.libs/libscipy_openblas-6cdc3b4a.so",
+      "version": "0.3.30",
+      "threading_layer": "pthreads",
+      "architecture": "SkylakeX"
+    },
+    {
+      "user_api": "openmp",
+      "internal_api": "openmp",
+      "num_threads": 16,
+      "prefix": "libgomp",
+      "filepath": "/environment/miniconda3/lib/libgomp.so.1.0.0",
+      "version": null
+    }
+  ],
+  "timing_scope": "QASM parse + TN/MPS construction + simplify + dense output",
+  "correctness_reference": "Qibo qibojit/numpy on the standard |0...0> state"
+}

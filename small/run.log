@@ -1,0 +1,47 @@
+[Qibo 0.3.2|INFO|2026-08-12 03:38:37]: Using qibojit (numba) backend on /CPU:0
+{
+  "baseline_tn": {
+    "steady_mean_runtime_s": 0.12707563800001745,
+    "steady_median_runtime_s": 0.12278926900000897,
+    "cold_mean_runtime_s": 1.8524367674999667,
+    "max_abs_error": 8.776362275231412e-15,
+    "min_fidelity": 0.9999999999999997,
+    "all_status": [
+      "success"
+    ],
+    "speedup_vs_baseline": 1.0
+  },
+  "mps_exact": {
+    "steady_mean_runtime_s": 0.17349106900000302,
+    "steady_median_runtime_s": 0.11976160399996161,
+    "cold_mean_runtime_s": 0.8518050260000507,
+    "max_abs_error": 4.245423746995523e-15,
+    "min_fidelity": 0.9999999999999989,
+    "all_status": [
+      "success"
+    ],
+    "speedup_vs_baseline": 0.7324621303706143
+  },
+  "mps_cutoff_1e12": {
+    "steady_mean_runtime_s": 0.1364798591666935,
+    "steady_median_runtime_s": 0.11195229000003337,
+    "cold_mean_runtime_s": 0.13927825675003191,
+    "max_abs_error": 2.3637019208856623e-13,
+    "min_fidelity": 0.9999999999999994,
+    "all_status": [
+      "success"
+    ],
+    "speedup_vs_baseline": 0.9310944396917208
+  },
+  "mps_cutoff_1e8": {
+    "steady_mean_runtime_s": 0.12186790441664168,
+    "steady_median_runtime_s": 0.10819722950003552,
+    "cold_mean_runtime_s": 0.1255427567500078,
+    "max_abs_error": 1.7987575668175308e-09,
+    "min_fidelity": 0.9999999999999971,
+    "all_status": [
+      "success"
+    ],
+    "speedup_vs_baseline": 1.0427326096095948
+  }
+}
