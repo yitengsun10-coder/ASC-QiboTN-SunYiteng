@@ -1,0 +1,6 @@
+qibo==0.3.2
+qibojit==0.1.15
+quimb==1.13.0
+numpy
+psutil
+threadpoolctl
