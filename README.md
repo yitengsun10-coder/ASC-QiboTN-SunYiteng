@@ -1,11 +1,18 @@
 # ASC QiboTN CPU 量子线路模拟优化记录
 
+> **最新正式结果：** 本仓库保留早期 16/18/20-qubit 实验作为历史与
+> 环境验证。按照后续“大规模 workload”要求完成的 30 qubits、9,998
+> gates、depth 449 官方 CPU 路径实验，已迁移到官方源码 fork：
+> [yitengsun10-coder/qibotn](https://github.com/yitengsun10-coder/qibotn/tree/main/benchmarks/asc_large_cpu)。
+> 该版本含原始日志、CSV、环境、保真度验证和可复现脚本；正式有效优化为
+> 相同数值配置下 16→1 线程，稳态 324.6081 s→57.5065 s（5.6447×）。
+
 - 学生：孙逸腾（240810010427）
 - 题目：QiboTN
 - 官方文档：https://qibo.science/qibotn/stable/
 - 官方仓库：https://github.com/qiboteam/qibotn
 - 工作负载：6 层 QAOA，16/18/20 qubit，CPU
-- 最佳大规模方案：`mps_cutoff_1e8`，稳态均值 0.39196 s，相对 baseline 2.3716×，最低保真度 0.9999999999999886
+- 本仓库早期最佳方案：`mps_cutoff_1e8`，稳态均值 0.39196 s，相对 baseline 2.3716×，最低保真度 0.9999999999999886
 
 本仓库包含两个可直接从终端调用的 Python benchmark、依赖文件、两批原始 CSV、资源日志、环境和汇总 JSON。
 
