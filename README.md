@@ -5,7 +5,8 @@
 > gates、depth 449 官方 CPU 路径实验，已迁移到官方源码 fork：
 > [yitengsun10-coder/qibotn](https://github.com/yitengsun10-coder/qibotn/tree/main/benchmarks/asc_large_cpu)。
 > 该版本含原始日志、CSV、环境、保真度验证和可复现脚本；正式有效优化为
-> 相同数值配置下 16→1 线程，稳态 324.6081 s→57.5065 s（5.6447×）。
+> 相同数值配置下，实测默认20线程→1线程，稳态
+> 404.0428 s→57.5065 s（7.0260×）。
 
 - 学生：孙逸腾（240810010427）
 - 题目：QiboTN
